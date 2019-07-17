@@ -1,12 +1,12 @@
 {
   "cates": [
-    { "id": 1, "name": "Post 1" },
-    { "id": 2, "name": "Post 2" },
-    { "id": 3, "name": "Post 3" }
+    { "id": 1, "name": "Categoria 1" },
+    { "id": 2, "name": "Categoria 2" },
+    { "id": 3, "name": "Categoria 3" }
   ],
   "rutas": [
-    { "id": 1, "name": "some comment", "postId": 1 },
-    { "id": 2, "body": "some comment", "postId": 1 }
+    { "id": 1, "name": "Ruta 1 - comentado", "cate_id": 1 },
+    { "id": 2, "name": "Ruta2 - comentado", "cate_id": 1 }
   ],
   "profile": {
     "name": "typicode"
