@@ -1,34 +1,65 @@
 {
-  "cates": [
-    { 
-	"id": 1, 
-	"name": "Categoria 1",
-	"routes":[
+	"cates": [
+		{ 
+			"id": 1, 
+			"name": "Categoria 1",
+			"routes":[
+				{ "id": 1, "name": "Ruta 1 - comentado", "cate_id": 1 },
+					{ "id": 2, "name": "Ruta 2 - comentado", "cate_id": 1 }
+			]
+		},
+		{ 
+			"id": 2,
+			"name": "Categoria 2",
+			"routes":[
+				{ "id": 3, "name": "Ruta 3 - comentado", "cate_id": 2 },
+					{ "id": 4, "name": "Ruta 4 - comentado", "cate_id": 2 }
+			]	
+		},
+		{ 
+			"id": 3, 
+			"name":"Categoria 3",
+			"routes":[
+				{ "id": 5, "name": "Ruta 5 - comentado", "cate_id": 3 },
+					{ "id": 6, "name": "Ruta 6 - comentado", "cate_id": 3 }
+			]	
+ 		}
+	],
+	"all":[
+			{
+				"cates": [
+					{ 
+						"id": 1, 
+						"name": "Categoria 1",
+						"routes":[
+							{ "id": 1, "name": "Ruta 1 - comentado", "cate_id": 1 },
+								{ "id": 2, "name": "Ruta 2 - comentado", "cate_id": 1 }
+						]
+					},
+					{ 
+						"id": 2,
+						"name": "Categoria 2",
+						"routes":[
+							{ "id": 3, "name": "Ruta 3 - comentado", "cate_id": 2 },
+								{ "id": 4, "name": "Ruta 4 - comentado", "cate_id": 2 }
+						]	
+					},
+					{ 
+						"id": 3, 
+						"name":"Categoria 3",
+						"routes":[
+							{ "id": 5, "name": "Ruta 5 - comentado", "cate_id": 3 },
+								{ "id": 6, "name": "Ruta 6 - comentado", "cate_id": 3 }
+						]	
+					 }
+				]
+			}
+	],  
+	"profile": {
+		"name": "typicode"
+	},
+	"rutas": [
 		{ "id": 1, "name": "Ruta 1 - comentado", "cate_id": 1 },
-    		{ "id": 2, "name": "Ruta 2 - comentado", "cate_id": 1 }
-	]},
-    { 
-	"id": 2,
-	"name": "Categoria 2",
-	"routes":[
-		{ "id": 3, "name": "Ruta 3 - comentado", "cate_id": 2 },
-    		{ "id": 4, "name": "Ruta 4 - comentado", "cate_id": 2 }
-	]	
-	 },
-    { 
-	"id": 3, 
-	"name":"Categoria 3",
-	"routes":[
-		{ "id": 5, "name": "Ruta 5 - comentado", "cate_id": 3 },
-    		{ "id": 6, "name": "Ruta 6 - comentado", "cate_id": 3 }
-	]	
- }
-  ],
-  "profile": {
-    "name": "typicode"
-  },
-  "rutas": [
-	{ "id": 1, "name": "Ruta 1 - comentado", "cate_id": 1 },
     	{ "id": 2, "name": "Ruta2 - comentado", "cate_id": 1 }
-]
+	]
 }
