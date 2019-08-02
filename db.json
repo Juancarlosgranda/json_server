@@ -26,34 +26,140 @@
  		}
 	],
 	"all":[
-			{
-				"cates": [
-					{ 
-						"id": 1, 
-						"name": "Categoria 1",
-						"routes":[
-							{ "id": 1, "name": "Ruta 1 - comentado", "cate_id": 1 },
-								{ "id": 2, "name": "Ruta 2 - comentado", "cate_id": 1 }
-						]
-					},
-					{ 
-						"id": 2,
-						"name": "Categoria 2",
-						"routes":[
-							{ "id": 3, "name": "Ruta 3 - comentado", "cate_id": 2 },
-								{ "id": 4, "name": "Ruta 4 - comentado", "cate_id": 2 }
-						]	
-					},
-					{ 
-						"id": 3, 
-						"name":"Categoria 3",
-						"routes":[
-							{ "id": 5, "name": "Ruta 5 - comentado", "cate_id": 3 },
-								{ "id": 6, "name": "Ruta 6 - comentado", "cate_id": 3 }
-						]	
-					 }
-				]
+		{
+			"id": 1,
+			"name": "categoria 1",
+			"description": "categoria bien bacan",
+			"route": {
+			  "routeId": 1,
+			  "stretchName": "Salida de Arequipa-Puente Añashuayco",
+			  "origenLatitude": "-16.408100000",
+			  "originLongitude": "-71.605600000",
+			  "destiniLatitude": "-16.340600000",
+			  "destiniLongitude": "-71.588200000",
+			  "stretch": [
+				{
+				  "id": 1,
+				  "latitudeOrigin": "-16.340580000",
+				  "longitudeOrigin": "-71.588214000",
+				  "latitudeDestination": "-16.340586000",
+				  "longitudeDestination": "-71.588219000",
+				  "radius": "2.000",
+				  "speedLimit": {
+					"speed": 50,
+					"faultLow": 50,
+					"faultMedium": 52,
+					"faultHigh": 54
+				  },
+				  "typesInterestPoint": [
+					{
+					  "id": 2,
+					  "name": "Puente",
+					  "latitude": -16.3511,
+					  "longitude": -71.598215,
+					  "radius": 3.4
+					}
+				  ]
+				},
+				{
+				  "id": 2,
+				  "latitudeOrigin": "-16.340584000",
+				  "longitudeOrigin": "-71.588216000",
+				  "latitudeDestination": "-16.340590000",
+				  "longitudeDestination": "-71.589216000",
+				  "radius": "5.000",
+				  "speedLimit": {
+					"speed": 50,
+					"faultLow": 50,
+					"faultMedium": 52,
+					"faultHigh": 54
+				  },
+				  "typesInterestPoint": [
+					{
+					  "id": 2,
+					  "name": "Puente",
+					  "latitude": -16.3511,
+					  "longitude": -71.598215,
+					  "radius": 3.4
+					}
+				  ]
+				},
+				{
+				  "id": 1,
+				  "latitudeOrigin": "-16.340580000",
+				  "longitudeOrigin": "-71.588214000",
+				  "latitudeDestination": "-16.340586000",
+				  "longitudeDestination": "-71.588219000",
+				  "radius": "2.000",
+				  "speedLimit": {
+					"speed": 50,
+					"faultLow": 50,
+					"faultMedium": 52,
+					"faultHigh": 54
+				  },
+				  "typesInterestPoint": [
+					{
+					  "id": 2,
+					  "name": "Puente",
+					  "latitude": -16.3511,
+					  "longitude": -71.598215,
+					  "radius": 3.4
+					}
+				  ]
+				}
+			  ]
 			}
+		  },
+		  {
+			"id": 2,
+			"name": "categoria 2",
+			"description": "categoria nell",
+			"route": {
+			  "routeId": 2,
+			  "stretchName": "planta 2-Sutran (Yura)",
+			  "origenLatitude": "-16.408300000",
+			  "originLongitude": "-71.605500000",
+			  "destiniLatitude": "-16.251500000",
+			  "destiniLongitude": "-71.679000000",
+			  "stretch": [
+				{
+				  "id": 1,
+				  "latitudeOrigin": "-16.340580000",
+				  "longitudeOrigin": "-71.588214000",
+				  "latitudeDestination": "-16.340586000",
+				  "longitudeDestination": "-71.588219000",
+				  "radius": "2.000",
+				  "speedLimit": {
+					"speed": 50,
+					"faultLow": 50,
+					"faultMedium": 52,
+					"faultHigh": 54
+				  },
+				  "typesInterestPoint": [
+					{
+					  "id": 2,
+					  "name": "Puente",
+					  "latitude": -16.3511,
+					  "longitude": -71.598215,
+					  "radius": 3.4
+					}
+				  ]
+				}
+			  ]
+			}
+		  },
+		  {
+			"id": 3,
+			"name": "categoria 3",
+			"description": "-----",
+			"route": []
+		  },
+		  {
+			"id": 4,
+			"name": "categoria 4",
+			"description": "una categoria sin nada mas que poner",
+			"route": []
+		  }
 	],  
 	"profile": {
 		"name": "typicode"
