@@ -160,13 +160,13 @@
 								"name": "Vidalon Esthetic",
 								"latitude": -16.385715,
 								"longitude": -71.550019,
-								"radius": 0.20
+								"radius": 0.02
 							  },{
 								"id": 2,
 								"name": "CEICA",
 								"latitude": -16.387437,
 								"longitude": -71.549527,
-								"radius": 0.20
+								"radius": 0.02
 							  }
 						]
 					  }
