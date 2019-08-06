@@ -35,10 +35,10 @@
 				"routes": [{
 				  "routeId": 1,
 				  "routeName": "Salida de Arequipa-Puente Añashuayco",
-				  "origenLatitude": "-16.4081",
+				  "originLatitude": "-16.4081",
 				  "originLongitude": "-71.6056",
-				  "destiniLatitude": "-14.7486",
-				  "destiniLongitude": "-71.5846",
+				  "destinationLatitude": "-14.7486",
+				  "destinationLongitude": "-71.5846",
 				  "stretch": [
 					{
 					  "id": 1,
@@ -113,10 +113,10 @@
 				"routes":[{
 				  "routeId": 2,
 				  "routeName": "Connectix - Ejercito",
-				  "origenLatitude": "-16.383483",
+				  "originLatitude": "-16.383483",
 				  "originLongitude": "-71.551771",
-				  "destiniLatitude": "-16.389135",
-				  "destiniLongitude": "-71.548775",
+				  "destinationLatitude": "-16.389135",
+				  "destinationLongitude": "-71.548775",
 				  "stretch": [
 					{
 					  "id": 1,
