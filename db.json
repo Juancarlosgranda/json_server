@@ -34,42 +34,44 @@
 				"description": "categoria bien bacan",
 				"routes": {
 				  "routeId": 1,
-				  "stretchName": "Salida de Arequipa-Puente Añashuayco",
-				  "origenLatitude": "-16.408100000",
-				  "originLongitude": "-71.605600000",
-				  "destiniLatitude": "-16.340600000",
-				  "destiniLongitude": "-71.588200000",
+				  "routeName": "Salida de Arequipa-Puente Añashuayco",
+				  "origenLatitude": "-16.4081",
+				  "originLongitude": "-71.6056",
+				  "destiniLatitude": "-14.7486",
+				  "destiniLongitude": "-71.5846",
 				  "stretch": [
 					{
 					  "id": 1,
-					  "latitudeOrigin": "-16.340580000",
-					  "longitudeOrigin": "-71.588214000",
-					  "latitudeDestination": "-16.340586000",
-					  "longitudeDestination": "-71.588219000",
-					  "distance": "2.000",
-					  "faultLow": 50,
-					  "faultMedium": 52,
-					  "faultHigh": 54,
+					  "stretchName": "Salida de Arequipa-Puente Añashuayco",
+					  "latitudeOrigin": "-16.4081",
+					  "longitudeOrigin": "-71.6056",
+					  "latitudeDestination": "-16.3406",
+					  "longitudeDestination": "-71.5882",
+					  "distance": "8.6",
+					  "faultLow": 46,
+					  "faultMedium": 48,
+					  "faultHigh": 52,
 					  "interestPoints": [
 						{
 						  "id": 2,
 						  "name": "Puente",
 						  "latitude": -16.3511,
 						  "longitude": -71.598215,
-						  "radius": 3.4
+						  "radius": 2
 						}
 					  ]
 					},
 					{
 					  "id": 2,
-					  "latitudeOrigin": "-16.340584000",
-					  "longitudeOrigin": "-71.588216000",
-					  "latitudeDestination": "-16.340590000",
-					  "longitudeDestination": "-71.589216000",
-					  "distance": "5.000",
-					  "faultLow": 50,
-					  "faultMedium": 52,
-					  "faultHigh": 54,
+					  "stretchName": "Salida de Arequipa-Puente Añashuayco",
+					  "latitudeOrigin": "-16.3406",
+					  "longitudeOrigin": "-71.5882",
+					  "latitudeDestination": "-16.2515",
+					  "longitudeDestination": "-71.6790",
+					  "distance": "17",
+					  "faultLow": 51,
+					  "faultMedium": 54,
+					  "faultHigh": 57,
 					  "interestPoints": [
 						{
 						  "id": 2,
@@ -82,14 +84,15 @@
 					},
 					{
 					  "id": 1,
-					  "latitudeOrigin": "-16.340580000",
-					  "longitudeOrigin": "-71.588214000",
-					  "latitudeDestination": "-16.340586000",
-					  "longitudeDestination": "-71.588219000",
-					  "distance": "2.000",
-					  "faultLow": 50,
-					  "faultMedium": 52,
-					  "faultHigh": 54,
+					  "stretchName": "Salida de Arequipa-Puente Añashuayco",
+					  "latitudeOrigin": "-16.2515",
+					  "longitudeOrigin": "-71.6790",
+					  "latitudeDestination": "-16.1898",
+					  "longitudeDestination": "-71.6521",
+					  "distance": "10.9",
+					  "faultLow": 56,
+					  "faultMedium": 59,
+					  "faultHigh": 63,
 					  "interestPoints": [
 						{
 						  "id": 2,
@@ -109,32 +112,64 @@
 				"description": "categoria nell",
 				"routes": {
 				  "routeId": 2,
-				  "stretchName": "planta 2-Sutran (Yura)",
-				  "origenLatitude": "-16.408300000",
-				  "originLongitude": "-71.605500000",
-				  "destiniLatitude": "-16.251500000",
-				  "destiniLongitude": "-71.679000000",
+				  "routeName": "Connectix - Ejercito",
+				  "origenLatitude": "-16.383483",
+				  "originLongitude": "-71.551771",
+				  "destiniLatitude": "-16.389135",
+				  "destiniLongitude": "-71.548775",
 				  "stretch": [
 					{
 					  "id": 1,
-					  "latitudeOrigin": "-16.340580000",
-					  "longitudeOrigin": "-71.588214000",
-					  "latitudeDestination": "-16.340586000",
-					  "longitudeDestination": "-71.588219000",
-					  "distance": "2.000",
-					  "faultLow": 50,
-					  "faultMedium": 52,
-					  "faultHigh": 54,
-					  "interestPoints": [
-						{
-						  "id": 2,
-						  "name": "Puente",
-						  "latitude": -16.3511,
-						  "longitude": -71.598215,
-						  "radius": 3.4
-						}
-					  ]
-					}
+					  "stretchName": "Connectix - Avidge",
+					  "latitudeOrigin": "-16.383483",
+					  "longitudeOrigin": "-71.551771",
+					  "latitudeDestination": "-16.383927",
+					  "longitudeDestination": "-71.551181",
+					  "distance": "0.052",
+					  "faultLow": 15,
+					  "faultMedium": 20,
+					  "faultHigh": 25,
+					  "interestPoints": []
+					},
+					{
+						"id": 1,
+						"stretchName": "Avidge - Calle los arces",
+						"latitudeOrigin": "-16.383927",
+						"longitudeOrigin": "-71.551181",
+						"latitudeDestination": "-16.384303",
+						"longitudeDestination": "-71.550285",
+						"distance": "0.16",
+						"faultLow": 15,
+						"faultMedium": 20,
+						"faultHigh": 25,
+						"interestPoints": []
+					  },{
+						"id": 1,
+						"stretchName": "Calle los arces - Ejercito",
+						"latitudeOrigin": "-16.384303",
+						"longitudeOrigin": "-71.550285",
+						"latitudeDestination": "-16.389135",
+						"longitudeDestination": "-71.548775",
+						"distance": "0.55",
+						"faultLow": 15,
+						"faultMedium": 20,
+						"faultHigh": 25,
+						"interestPoints": [
+							{
+								"id": 2,
+								"name": "Vidalon Esthetic",
+								"latitude": -16.385715,
+								"longitude": -71.550019,
+								"radius": 0.20
+							  },{
+								"id": 2,
+								"name": "CEICA",
+								"latitude": -16.387437,
+								"longitude": -71.549527,
+								"radius": 0.20
+							  }
+						]
+					  }
 				  ]
 				}
 			  },
