@@ -58,7 +58,13 @@
 						  "latitude": -16.3511,
 						  "longitude": -71.598215,
 						  "radius": 2
-						}
+						},{
+							"id": 6,
+							"name": "Hospital",
+							"latitude": -16.3511,
+							"longitude": -71.598215,
+							"radius": 2
+						  }
 					  ]
 					},
 					{
