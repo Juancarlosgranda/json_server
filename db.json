@@ -1,22 +1,4 @@
 {
-	"cates": [
-		{
-			"id": 1,
-			"name": "Categoria 1",
-			"routes": [
-				{
-					"id": 1,
-					"name": "Ruta 1 - comentado",
-					"cate_id": 1
-				},
-				{
-					"id": 2,
-					"name": "Ruta 2 - comentado",
-					"cate_id": 1
-				}
-			]
-		}
-	],
 	"all": [
 		{
 			"categories": [
@@ -398,17 +380,5 @@
 	],
 	"profile": {
 		"name": "typicode"
-	},
-	"rutas": [
-		{
-			"id": 1,
-			"name": "Ruta 1 - comentado",
-			"cate_id": 1
-		},
-		{
-			"id": 2,
-			"name": "Ruta2 - comentado",
-			"cate_id": 1
-		}
-	]
+	}
 }
