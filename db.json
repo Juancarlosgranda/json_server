@@ -182,7 +182,7 @@
 					  },
 					  {
 						"routeId": 3,
-						"routeName": "Connectix - Ejercito",
+						"routeName": "Connectix - Parquesito",
 						"originLatitude": "-16.383496",
 						"originLongitude": "-71.551827",
 						"destinationLatitude": "-16.384832",
@@ -221,7 +221,7 @@
 									"radius": 0.02
 								  },{
 									"id": 8,
-									"name": "parquesito goes",
+									"name": "Parquesito goes pnpn",
 									"latitude": -16.384413,
 									"longitude": -71.551229,
 									"radius": 0.02
