@@ -1,309 +1,445 @@
 {
 	"cates": [
-		{ 
-			"id": 1, 
-			"name": "Categoria 1",
-			"routes":[
-				{ "id": 1, "name": "Ruta 1 - comentado", "cate_id": 1 },
-					{ "id": 2, "name": "Ruta 2 - comentado", "cate_id": 1 }
-			]
-		},
-		{ 
-			"id": 2,
-			"name": "Categoria 2",
-			"routes":[
-				{ "id": 3, "name": "Ruta 3 - comentado", "cate_id": 2 },
-					{ "id": 4, "name": "Ruta 4 - comentado", "cate_id": 2 }
-			]	
-		},
-		{ 
-			"id": 3, 
-			"name":"Categoria 3",
-			"routes":[
-				{ "id": 5, "name": "Ruta 5 - comentado", "cate_id": 3 },
-					{ "id": 6, "name": "Ruta 6 - comentado", "cate_id": 3 }
-			]	
- 		}
-	],
-	"all":[
 		{
-			"categories": [
-			  {
-				"id": 1,
-				"name": "categoria 1",
-				"description": "categoria bien bacan",
-				"routes": [{
-				  "routeId": 1,
-				  "routeName": "Salida de Arequipa-Puente Añashuayco",
-				  "originLatitude": "-16.4081",
-				  "originLongitude": "-71.6056",
-				  "destinationLatitude": "-14.7486",
-				  "destinationLongitude": "-71.5846",
-				  "stretch": [
-					{
-					  "id": 1,
-					  "stretchName": "Salida de Arequipa-Puente Añashuayco",
-					  "latitudeOrigin": "-16.4081",
-					  "longitudeOrigin": "-71.6056",
-					  "latitudeDestination": "-16.3406",
-					  "longitudeDestination": "-71.5882",
-					  "distance": "8.6",
-					  "faultLow": 46,
-					  "faultMedium": 48,
-					  "faultHigh": 52,
-					  "interestPoints": [
-						{
-						  "id": 1,
-						  "name": "Puente",
-						  "latitude": -16.3511,
-						  "longitude": -71.598215,
-						  "radius": 2
-						},{
-							"id": 6,
-							"name": "Hospital",
-							"latitude": -16.3511,
-							"longitude": -71.598215,
-							"radius": 2
-						  }
-					  ]
-					},
-					{
-					  "id": 2,
-					  "stretchName": "Salida de Arequipa-Puente Añashuayco",
-					  "latitudeOrigin": "-16.3406",
-					  "longitudeOrigin": "-71.5882",
-					  "latitudeDestination": "-16.2515",
-					  "longitudeDestination": "-71.6790",
-					  "distance": "17",
-					  "faultLow": 51,
-					  "faultMedium": 54,
-					  "faultHigh": 57,
-					  "interestPoints": [
-						{
-						  "id": 2,
-						  "name": "Puente",
-						  "latitude": -16.3511,
-						  "longitude": -71.598215,
-						  "radius": 3.4
-						}
-					  ]
-					},
-					{
-					  "id": 3,
-					  "stretchName": "Salida de Arequipa-Puente Añashuayco",
-					  "latitudeOrigin": "-16.2515",
-					  "longitudeOrigin": "-71.6790",
-					  "latitudeDestination": "-16.1898",
-					  "longitudeDestination": "-71.6521",
-					  "distance": "10.9",
-					  "faultLow": 56,
-					  "faultMedium": 59,
-					  "faultHigh": 63,
-					  "interestPoints": [
-						{
-						  "id": 3,
-						  "name": "Puente",
-						  "latitude": -16.3511,
-						  "longitude": -71.598215,
-						  "radius": 3.4
-						}
-					  ]
-					}
-				  ]
+			"id": 1,
+			"name": "Categoria 1",
+			"routes": [
+				{
+					"id": 1,
+					"name": "Ruta 1 - comentado",
+					"cate_id": 1
+				},
+				{
+					"id": 2,
+					"name": "Ruta 2 - comentado",
+					"cate_id": 1
 				}
 			]
-			  },
-			  {
-				"id": 2,
-				"name": "categoria 2",
-				"description": "categoria nell",
-				"routes":[
-					{
-						"routeId": 2,
-						"routeName": "Connectix - Ejercito",
-						"originLatitude": "-16.383483",
-						"originLongitude": "-71.551771",
-						"destinationLatitude": "-16.389135",
-						"destinationLongitude": "-71.548775",
-						"stretch": [
-						  {
-							"id": 4,
-							"stretchName": "Connectix - Avidge",
-							"latitudeOrigin": "-16.383483",
-							"longitudeOrigin": "-71.551771",
-							"latitudeDestination": "-16.383927",
-							"longitudeDestination": "-71.551181",
-							"distance": "0.052",
-							"faultLow": 15,
-							"faultMedium": 20,
-							"faultHigh": 25,
-							"interestPoints": []
-						  },
-						  {
-							  "id": 5,
-							  "stretchName": "Avidge - Calle los arces",
-							  "latitudeOrigin": "-16.383927",
-							  "longitudeOrigin": "-71.551181",
-							  "latitudeDestination": "-16.384303",
-							  "longitudeDestination": "-71.550285",
-							  "distance": "0.16",
-							  "faultLow": 15,
-							  "faultMedium": 20,
-							  "faultHigh": 25,
-							  "interestPoints": []
-							},{
-							  "id": 6,
-							  "stretchName": "Calle los arces - Ejercito",
-							  "latitudeOrigin": "-16.384303",
-							  "longitudeOrigin": "-71.550285",
-							  "latitudeDestination": "-16.389135",
-							  "longitudeDestination": "-71.548775",
-							  "distance": "0.55",
-							  "faultLow": 15,
-							  "faultMedium": 20,
-							  "faultHigh": 25,
-							  "interestPoints": [
-								  {
-									  "id": 4,
-									  "name": "Vidalon Esthetic",
-									  "latitude": -16.385715,
-									  "longitude": -71.550019,
-									  "radius": 0.02
-									},{
-									  "id": 5,
-									  "name": "CEICA",
-									  "latitude": -16.387437,
-									  "longitude": -71.549527,
-									  "radius": 0.02
-									}
-							  ]
-							}
-						]
-					  },
-					  {
-						"routeId": 3,
-						"routeName": "Connectix - Parquesito",
-						"originLatitude": "-16.383496",
-						"originLongitude": "-71.551827",
-						"destinationLatitude": "-16.384832",
-						"destinationLongitude": "-71.551279",
-						"stretch": [
-						  {
-							"id": 7,
-							"stretchName": "Connectix - Avidge",
-							"latitudeOrigin": "-16.383496",
-							"longitudeOrigin": "-71.551827",
-							"latitudeDestination": "-16.383572",
-							"longitudeDestination": "-71.551305",
-							"distance": "0.065",
-							"faultLow": 5,
-							"faultMedium": 10,
-							"faultHigh": 15,
-							"interestPoints": []
-						  },
-						  {
-							  "id": 8,
-							  "stretchName": "Avidge - Parque",
-							  "latitudeOrigin": "-16.383572",
-							  "longitudeOrigin": "-71.551305",
-							  "latitudeDestination": "-16.384832",
-							  "longitudeDestination": "-71.551279",
-							  "distance": "0.17",
-							  "faultLow": 6,
-							  "faultMedium": 10,
-							  "faultHigh": 16,
-							  "interestPoints": [
-								{
-									"id": 7,
-									"name": "Primer punto de interes",
-									"latitude": -16.383967,
-									"longitude": -71.551166,
-									"radius": 0.02
-								  },{
-									"id": 8,
-									"name": "Parquesito goes pnpn",
-									"latitude": -16.384413,
-									"longitude": -71.551229,
-									"radius": 0.02
-								  }
-							  ]
-							}
-						]
-					  },
-					  {
-						"routeId": 4,
-						"routeName": "Parquesito - Connectix",
-						"originLatitude": "-16.384832",
-						"originLongitude": "-71.551279",
-						"destinationLatitude": "-16.383496",
-						"destinationLongitude": "-71.551827",
-						"stretch": [
-						  
-						  {
-							  "id": 9,
-							  "stretchName": "Avidge - Parque",
-							  "latitudeOrigin": "-16.384832",
-							  "longitudeOrigin": "-71.551279",
-							  "latitudeDestination": "-16.383572",
-							  "longitudeDestination": "-71.551305",
-							  "distance": "0.17",
-							  "faultLow": 6,
-							  "faultMedium": 10,
-							  "faultHigh": 16,
-							  "interestPoints": [
-								{
-									"id": 7,
-									"name": "Primer punto de interes",
-									"latitude": -16.383967,
-									"longitude": -71.551166,
-									"radius": 0.02
-								  },{
-									"id": 8,
-									"name": "Parquesito goes pnpn",
-									"latitude": -16.384413,
-									"longitude": -71.551229,
-									"radius": 0.02
-								  }
-							  ]
-							},
-							{
-								"id": 10,
-								"stretchName": "Avidge - Connectix",
-								"latitudeOrigin": "-16.383572",
-								"longitudeOrigin": "-71.551305",
-								"latitudeDestination": "-16.383496",
-								"longitudeDestination": "-71.551827",
-								"distance": "0.065",
-								"faultLow": 5,
-								"faultMedium": 10,
-								"faultHigh": 15,
-								"interestPoints": []
-							  }
-						]
-					  }
-				
-				]
-			  },
-			  {
-				"id": 3,
-				"name": "categoria 3",
-				"description": "-----",
-				"routes": []
-			  },
-			  {
-				"id": 4,
-				"name": "categoria 4",
-				"description": "una categoria sin nada mas que poner",
-				"routes": []
-			  }
+		},
+		{
+			"id": 2,
+			"name": "Categoria 2",
+			"routes": [
+				{
+					"id": 3,
+					"name": "Ruta 3 - comentado",
+					"cate_id": 2
+				},
+				{
+					"id": 4,
+					"name": "Ruta 4 - comentado",
+					"cate_id": 2
+				}
 			]
-		  }
-	],  
+		},
+		{
+			"id": 3,
+			"name": "Categoria 3",
+			"routes": [
+				{
+					"id": 5,
+					"name": "Ruta 5 - comentado",
+					"cate_id": 3
+				},
+				{
+					"id": 6,
+					"name": "Ruta 6 - comentado",
+					"cate_id": 3
+				}
+			]
+		}
+	],
+	"all": [
+		{
+			"categories": [
+				{
+					"id": 1,
+					"name": "categoria 1",
+					"description": "categoria bien bacan",
+					"routes": [
+						{
+							"routeId": 1,
+							"routeName": "Salida de Arequipa-Puente Añashuayco",
+							"originLatitude": "-16.4081",
+							"originLongitude": "-71.6056",
+							"destinationLatitude": "-14.7486",
+							"destinationLongitude": "-71.5846",
+							"stretch": [
+								{
+									"id": 1,
+									"stretchName": "Salida de Arequipa-Puente Añashuayco",
+									"latitudeOrigin": "-16.4081",
+									"longitudeOrigin": "-71.6056",
+									"latitudeDestination": "-16.3406",
+									"longitudeDestination": "-71.5882",
+									"distance": "8.6",
+									"faultLow": 46,
+									"faultMedium": 48,
+									"faultHigh": 52,
+									"interestPoints": [
+										{
+											"id": 1,
+											"name": "Puente",
+											"latitude": -16.3511,
+											"longitude": -71.598215,
+											"radius": 2
+										},
+										{
+											"id": 6,
+											"name": "Hospital",
+											"latitude": -16.3511,
+											"longitude": -71.598215,
+											"radius": 2
+										}
+									]
+								},
+								{
+									"id": 2,
+									"stretchName": "Salida de Arequipa-Puente Añashuayco",
+									"latitudeOrigin": "-16.3406",
+									"longitudeOrigin": "-71.5882",
+									"latitudeDestination": "-16.2515",
+									"longitudeDestination": "-71.6790",
+									"distance": "17",
+									"faultLow": 51,
+									"faultMedium": 54,
+									"faultHigh": 57,
+									"interestPoints": [
+										{
+											"id": 2,
+											"name": "Puente",
+											"latitude": -16.3511,
+											"longitude": -71.598215,
+											"radius": 3.4
+										}
+									]
+								},
+								{
+									"id": 3,
+									"stretchName": "Salida de Arequipa-Puente Añashuayco",
+									"latitudeOrigin": "-16.2515",
+									"longitudeOrigin": "-71.6790",
+									"latitudeDestination": "-16.1898",
+									"longitudeDestination": "-71.6521",
+									"distance": "10.9",
+									"faultLow": 56,
+									"faultMedium": 59,
+									"faultHigh": 63,
+									"interestPoints": [
+										{
+											"id": 3,
+											"name": "Puente",
+											"latitude": -16.3511,
+											"longitude": -71.598215,
+											"radius": 3.4
+										}
+									]
+								}
+							]
+						}
+					]
+				},
+				{
+					"id": 2,
+					"name": "categoria 2",
+					"description": "categoria nell",
+					"routes": [
+						{
+							"routeId": 2,
+							"routeName": "Connectix - Ejercito",
+							"originLatitude": "-16.383483",
+							"originLongitude": "-71.551771",
+							"destinationLatitude": "-16.389135",
+							"destinationLongitude": "-71.548775",
+							"stretch": [
+								{
+									"id": 4,
+									"stretchName": "Connectix - Avidge",
+									"latitudeOrigin": "-16.383483",
+									"longitudeOrigin": "-71.551771",
+									"latitudeDestination": "-16.383927",
+									"longitudeDestination": "-71.551181",
+									"distance": "0.052",
+									"faultLow": 15,
+									"faultMedium": 20,
+									"faultHigh": 25,
+									"interestPoints": []
+								},
+								{
+									"id": 5,
+									"stretchName": "Avidge - Calle los arces",
+									"latitudeOrigin": "-16.383927",
+									"longitudeOrigin": "-71.551181",
+									"latitudeDestination": "-16.384303",
+									"longitudeDestination": "-71.550285",
+									"distance": "0.16",
+									"faultLow": 15,
+									"faultMedium": 20,
+									"faultHigh": 25,
+									"interestPoints": []
+								},
+								{
+									"id": 6,
+									"stretchName": "Calle los arces - Ejercito",
+									"latitudeOrigin": "-16.384303",
+									"longitudeOrigin": "-71.550285",
+									"latitudeDestination": "-16.389135",
+									"longitudeDestination": "-71.548775",
+									"distance": "0.55",
+									"faultLow": 15,
+									"faultMedium": 20,
+									"faultHigh": 25,
+									"interestPoints": [
+										{
+											"id": 4,
+											"name": "Vidalon Esthetic",
+											"latitude": -16.385715,
+											"longitude": -71.550019,
+											"radius": 0.02
+										},
+										{
+											"id": 5,
+											"name": "CEICA",
+											"latitude": -16.387437,
+											"longitude": -71.549527,
+											"radius": 0.02
+										}
+									]
+								}
+							]
+						},
+						{
+							"routeId": 3,
+							"routeName": "Connectix - Parquesito",
+							"originLatitude": "-16.383496",
+							"originLongitude": "-71.551827",
+							"destinationLatitude": "-16.384832",
+							"destinationLongitude": "-71.551279",
+							"stretch": [
+								{
+									"id": 7,
+									"stretchName": "Connectix - Avidge",
+									"latitudeOrigin": "-16.383496",
+									"longitudeOrigin": "-71.551827",
+									"latitudeDestination": "-16.383572",
+									"longitudeDestination": "-71.551305",
+									"distance": "0.065",
+									"faultLow": 5,
+									"faultMedium": 10,
+									"faultHigh": 15,
+									"interestPoints": []
+								},
+								{
+									"id": 8,
+									"stretchName": "Avidge - Parque",
+									"latitudeOrigin": "-16.383572",
+									"longitudeOrigin": "-71.551305",
+									"latitudeDestination": "-16.384832",
+									"longitudeDestination": "-71.551279",
+									"distance": "0.17",
+									"faultLow": 6,
+									"faultMedium": 10,
+									"faultHigh": 16,
+									"interestPoints": [
+										{
+											"id": 7,
+											"name": "Primer punto de interes",
+											"latitude": -16.383967,
+											"longitude": -71.551166,
+											"radius": 0.02
+										},
+										{
+											"id": 8,
+											"name": "Parquesito goes pnpn",
+											"latitude": -16.384413,
+											"longitude": -71.551229,
+											"radius": 0.02
+										}
+									]
+								}
+							]
+						},
+						{
+							"routeId": 4,
+							"routeName": "Parquesito - Connectix",
+							"originLatitude": "-16.384832",
+							"originLongitude": "-71.551279",
+							"destinationLatitude": "-16.383496",
+							"destinationLongitude": "-71.551827",
+							"stretch": [
+								{
+									"id": 9,
+									"stretchName": "Avidge - Parque",
+									"latitudeOrigin": "-16.384832",
+									"longitudeOrigin": "-71.551279",
+									"latitudeDestination": "-16.383572",
+									"longitudeDestination": "-71.551305",
+									"distance": "0.17",
+									"faultLow": 6,
+									"faultMedium": 10,
+									"faultHigh": 16,
+									"interestPoints": [
+										{
+											"id": 9,
+											"name": "Parquesito goes pnpn",
+											"latitude": -16.384413,
+											"longitude": -71.551229,
+											"radius": 0.02
+										},
+										{
+											"id": 10,
+											"name": "Primer punto de interes",
+											"latitude": -16.383967,
+											"longitude": -71.551166,
+											"radius": 0.02
+										}
+									]
+								},
+								{
+									"id": 10,
+									"stretchName": "Avidge - Connectix",
+									"latitudeOrigin": "-16.383572",
+									"longitudeOrigin": "-71.551305",
+									"latitudeDestination": "-16.383496",
+									"longitudeDestination": "-71.551827",
+									"distance": "0.065",
+									"faultLow": 5,
+									"faultMedium": 10,
+									"faultHigh": 15,
+									"interestPoints": []
+								}
+							]
+						},
+						{
+							"routeId": 5,
+							"routeName": "TIENDAS EFE - OVALO",
+							"originLatitude": "-16.402582",
+							"originLongitude": "-71.517127",
+							"destinationLatitude": "-16.407918",
+							"destinationLongitude": "-71.477995",
+							"stretch": [
+								{
+									"id": 11,
+									"stretchName": "TIENDAS EFE - 15 DE AGOSTO",
+									"latitudeOrigin": "-16.402582",
+									"longitudeOrigin": "-71.517127",
+									"latitudeDestination": "-16.413275",
+									"longitudeDestination": "-71.500503",
+									"distance": "4",
+									"faultLow": 6,
+									"faultMedium": 10,
+									"faultHigh": 16,
+									"interestPoints": [
+										{
+											"id": 11,
+											"name": "FEMACO",
+											"latitude": -16.4078642,
+											"longitude": -71.5090334,
+											"radius": 0.05
+										},
+										{
+											"id": 12,
+											"name": "CAPILLA DE GILES",
+											"latitude": -16.4078642,
+											"longitude": -71.5090334,
+											"radius": 0.05
+										},
+										{
+											"id": 13,
+											"name": "AGENTE BCP",
+											"latitude": -16.410313,
+											"longitude": -71.504949,
+											"radius": 0.05
+										}
+									]
+								},
+								{
+									"id": 12,
+									"stretchName": "15 DE AGOSTO - COLEGIO DE IMBECILES",
+									"latitudeOrigin": "-16.413275",
+									"longitudeOrigin": "-71.500503",
+									"latitudeDestination": "-16.410381",
+									"longitudeDestination": "-71.496928",
+									"distance": "1",
+									"faultLow": 5,
+									"faultMedium": 10,
+									"faultHigh": 15,
+									"interestPoints": [
+										{
+											"id": 14,
+											"name": "Hostal aqp",
+											"latitude": -16.410548,
+											"longitude": -71.498003,
+											"radius": 0.05
+										}
+									]
+								},{
+									"id": 13,
+									"stretchName": "COLEGIO DE IMBECILES - OVALO",
+									"latitudeOrigin": "-16.410381",
+									"longitudeOrigin": "-71.496928",
+									"latitudeDestination": "-16.407918",
+									"longitudeDestination": "-71.477995",
+									"distance": "2.4",
+									"faultLow": 6,
+									"faultMedium": 10,
+									"faultHigh": 16,
+									"interestPoints": [
+										{
+											"id": 15,
+											"name": "Paradero C grampo",
+											"latitude": -16.4096486,
+											"longitude": -71.4915977,
+											"radius": 0.05
+										},
+										{
+											"id": 16,
+											"name": "Comisario de rateros",
+											"latitude": -16.4086233,
+											"longitude": -71.4838535,
+											"radius": 0.05
+										},
+										{
+											"id": 17,
+											"name": "ESTADIO MIGUEL GRAU",
+											"latitude": -16.408059,
+											"longitude": -71.479281,
+											"radius": 0.05
+										}
+									]
+								}
+							]
+						}
+					]
+				},
+				{
+					"id": 3,
+					"name": "categoria 3",
+					"description": "-----",
+					"routes": []
+				},
+				{
+					"id": 4,
+					"name": "categoria 4",
+					"description": "una categoria sin nada mas que poner",
+					"routes": []
+				}
+			]
+		}
+	],
 	"profile": {
 		"name": "typicode"
 	},
 	"rutas": [
-		{ "id": 1, "name": "Ruta 1 - comentado", "cate_id": 1 },
-    	{ "id": 2, "name": "Ruta2 - comentado", "cate_id": 1 }
+		{
+			"id": 1,
+			"name": "Ruta 1 - comentado",
+			"cate_id": 1
+		},
+		{
+			"id": 2,
+			"name": "Ruta2 - comentado",
+			"cate_id": 1
+		}
 	]
 }
