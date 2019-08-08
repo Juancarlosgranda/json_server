@@ -229,6 +229,57 @@
 							  ]
 							}
 						]
+					  },
+					  {
+						"routeId": 4,
+						"routeName": "Parquesito - Connectix",
+						"originLatitude": "-16.384832",
+						"originLongitude": "-71.551279",
+						"destinationLatitude": "-16.383496",
+						"destinationLongitude": "-71.551827",
+						"stretch": [
+						  
+						  {
+							  "id": 9,
+							  "stretchName": "Avidge - Parque",
+							  "latitudeOrigin": "-16.384832",
+							  "longitudeOrigin": "-71.551279",
+							  "latitudeDestination": "-16.383572",
+							  "longitudeDestination": "-71.551305",
+							  "distance": "0.17",
+							  "faultLow": 6,
+							  "faultMedium": 10,
+							  "faultHigh": 16,
+							  "interestPoints": [
+								{
+									"id": 7,
+									"name": "Primer punto de interes",
+									"latitude": -16.383967,
+									"longitude": -71.551166,
+									"radius": 0.02
+								  },{
+									"id": 8,
+									"name": "Parquesito goes pnpn",
+									"latitude": -16.384413,
+									"longitude": -71.551229,
+									"radius": 0.02
+								  }
+							  ]
+							},
+							{
+								"id": 10,
+								"stretchName": "Avidge - Connectix",
+								"latitudeOrigin": "-16.383572",
+								"longitudeOrigin": "-71.551305",
+								"latitudeDestination": "-16.383496",
+								"longitudeDestination": "-71.551827",
+								"distance": "0.065",
+								"faultLow": 5,
+								"faultMedium": 10,
+								"faultHigh": 15,
+								"interestPoints": []
+							  }
+						]
 					  }
 				
 				]
