@@ -119,21 +119,21 @@
 									"faultHigh": 60,
 									"interestPoints": [
 										{
-											"id": 4,
+											"id": 8,
 											"name": "Planta Backus",
 											"latitude": -16.411377,
 											"longitude": -71.556575,
 											"radius": 0.04
 										},
 										{
-											"id": 5,
+											"id": 9,
 											"name": "Rio chili",
 											"latitude": -16.416341,
 											"longitude": -71.550979,
 											"radius": 0.04
 										},
 										{
-											"id": 6,
+											"id": 10,
 											"name": "Ovalo - AV. Los incas",
 											"latitude": -16.416341,
 											"longitude": -71.550979,
