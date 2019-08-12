@@ -8,136 +8,101 @@
 					"description": "categoria bien bacan",
 					"routes": [
 						{
-							"routeId": 1,
-							"routeName": "Calle los Arces - Terminal",
-							"originLatitude": "-16.38430",
-							"originLongitude": "-71.55028",
-							"destinationLatitude": "-16.4235132",
-							"destinationLongitude": "-71.5444831",
+							"routeId": 5,
+							"routeName": "Mariscal C. - Ovalo M.G.",
+							"originLatitude": "-16.402582",
+							"originLongitude": "-71.517127",
+							"destinationLatitude": "-16.407918",
+							"destinationLongitude": "-71.477995",
 							"stretch": [
 								{
-									"id": 1,
-									"stretchName": "Calle los Arces - Avenida Ejército",
-									"latitudeOrigin": "-16.38430",
-									"longitudeOrigin": "-71.55028",
-									"latitudeDestination": "-16.3894811",
-									"longitudeDestination": "-71.5476088",
+									"id": 11,
+									"stretchName": "MARISCAL C. - 15 DE AGOSTO",
+									"latitudeOrigin": "-16.402582",
+									"longitudeOrigin": "-71.517127",
+									"latitudeDestination": "-16.411814",
+									"longitudeDestination": "-71.502602",
+									"distance": "4",
+									"faultLow": 40,
+									"faultMedium": 45,
+									"faultHigh": 50,
+									"interestPoints": [
+										{
+											"id": 11,
+											"name": "INMACOB",
+											"latitude": -16.4050127,
+											"longitude": -71.5134564,
+											"radius": 0.05
+										},
+										{
+											"id": 12,
+											"name": "BCP",
+											"latitude": -16.4067128,
+											"longitude": -71.5108426,
+											"radius": 0.05
+										},
+										{
+											"id": 13,
+											"name": "GRIFO VDC",
+											"latitude": -16.410178,
+											"longitude": -71.5054876,
+											"radius": 0.05
+										}
+									]
+								},
+								{
+									"id": 12,
+									"stretchName": "15 DE AGOSTO - COLEGIO SP",
+									"latitudeOrigin": "-16.411814",
+									"longitudeOrigin": "-71.502602",
+									"latitudeDestination": "-16.410381",
+									"longitudeDestination": "-71.496928",
 									"distance": "1",
-									"faultLow": 45,
-									"faultMedium": 50,
-									"faultHigh": 55,
+									"faultLow": 40,
+									"faultMedium": 45,
+									"faultHigh": 50,
 									"interestPoints": [
 										{
-											"id": 1,
-											"name": "Colegio Garabato",
-											"latitude": -16.384702,
-											"longitude": -71.548490,
-											"radius": 0.04
-										},
-										{
-											"id": 2,
-											"name": "Avenida Cayma",
-											"latitude": -16.387574,
-											"longitude": -71.546934,
-											"radius": 0.04
+											"id": 14,
+											"name": "HOSTAL AQP",
+											"latitude": -16.410548,
+											"longitude": -71.498003,
+											"radius": 0.05
 										}
 									]
 								},
 								{
-									"id": 2,
-									"stretchName": "Avenida Ejército - Ovalo Jose Abelardo",
-									"latitudeOrigin": "-16.3894811",
-									"longitudeOrigin": "-71.5476088",
-									"latitudeDestination": "-16.397070",
-									"longitudeDestination": "-71.547616",
-									"distance": "1",
-									"faultLow": 50,
-									"faultMedium": 55,
-									"faultHigh": 60,
+									"id": 13,
+									"stretchName": "COLEGIO SP - OVALO",
+									"latitudeOrigin": "-16.410381",
+									"longitudeOrigin": "-71.496928",
+									"latitudeDestination": "-16.407918",
+									"longitudeDestination": "-71.477995",
+									"distance": "2.4",
+									"faultLow": 40,
+									"faultMedium": 45,
+									"faultHigh": 50,
 									"interestPoints": [
 										{
-											"id": 3,
-											"name": "SUNAT",
-											"latitude": -16.391590,
-											"longitude": -71.548614,
-											"radius": 0.04
+											"id": 15,
+											"name": "PARADERO C GRAMPO",
+											"latitude": -16.4096486,
+											"longitude": -71.4915977,
+											"radius": 0.05
 										},
 										{
-											"id": 4,
-											"name": "Calle Chullo",
-											"latitude": -16.395362,
-											"longitude": -71.548378,
-											"radius": 0.04
-										}
-									]
-								},
-								{
-									"id": 3,
-									"stretchName": "Ovalo Jose Abelardo - Variante de Uchumayo",
-									"latitudeOrigin": "-16.397070",
-									"longitudeOrigin": "-71.547616",
-									"latitudeDestination": "-16.408069",
-									"longitudeDestination": "-71.559940",
-									"distance": "2.2",
-									"faultLow": 50,
-									"faultMedium": 55,
-									"faultHigh": 60,
-									"interestPoints": [
-										{
-											"id": 5,
-											"name": "Rico Pollo",
-											"latitude": -16.399678,
-											"longitude": -71.549798,
-											"radius": 0.04
+											"id": 16,
+											"name": "COMISARÍA CANINA",
+											"latitude": -16.4086233,
+											"longitude": -71.4838535,
+											"radius": 0.05
 										},
 										{
-											"id": 6,
-											"name": "Incalpaca",
-											"latitude": -16.404385,
-											"longitude": -71.553678,
-											"radius": 0.04
-										},
-										{
-											"id": 7,
-											"name": "Grifo Tahuaycani ",
-											"latitude": -16.407121,
-											"longitude": -71.557743,
-											"radius": 0.04
-										}
-									]
-								},
-								{
-									"id": 4,
-									"stretchName": "Variante de Uchumayo - Terminal",
-									"latitudeOrigin": "-16.408069",
-									"longitudeOrigin": "-71.559940",
-									"latitudeDestination": "-16.4235132",
-									"longitudeDestination": "-71.5444831",
-									"distance": "3",
-									"faultLow": 50,
-									"faultMedium": 55,
-									"faultHigh": 60,
-									"interestPoints": [
-										{
-											"id": 8,
-											"name": "Planta Backus",
-											"latitude": -16.411377,
-											"longitude": -71.556575,
-											"radius": 0.04
-										},
-										{
-											"id": 9,
-											"name": "Rio chili",
-											"latitude": -16.416341,
-											"longitude": -71.550979,
-											"radius": 0.04
-										},
-										{
-											"id": 10,
-											"name": "Ovalo - AV. Los incas",
-											"latitude": -16.416341,
-											"longitude": -71.550979,
-											"radius": 0.04
+											"id": 17,
+											"name": "ESTADIO MIGUEL GRAU",
+											"latitude": -16.408059,
+											"longitude": -71.479281,
+											"radius": 0.05
 										}
 									]
 								}
