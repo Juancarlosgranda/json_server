@@ -181,7 +181,7 @@
 						},
 						{
 							"routeId": 5,
-							"routeName": "TIENDAS EFE - OVALO",
+							"routeName": "Mariscal C. - Ovalo M.G.",
 							"originLatitude": "-16.402582",
 							"originLongitude": "-71.517127",
 							"destinationLatitude": "-16.407918",
@@ -189,11 +189,11 @@
 							"stretch": [
 								{
 									"id": 11,
-									"stretchName": "TIENDAS EFE - 15 DE AGOSTO",
+									"stretchName": "MARISCAL C. - 15 DE AGOSTO",
 									"latitudeOrigin": "-16.402582",
 									"longitudeOrigin": "-71.517127",
-									"latitudeDestination": "-16.413275",
-									"longitudeDestination": "-71.500503",
+									"latitudeDestination": "-16.411814",
+									"longitudeDestination": "-71.502602",
 									"distance": "4",
 									"faultLow": 40,
 									"faultMedium": 45,
@@ -201,32 +201,32 @@
 									"interestPoints": [
 										{
 											"id": 11,
-											"name": "FEMACO",
-											"latitude": -16.4078642,
-											"longitude": -71.5090334,
+											"name": "INMACOB",
+											"latitude": -16.4050127,
+											"longitude": -71.5134564,
 											"radius": 0.05
 										},
 										{
 											"id": 12,
-											"name": "CAPILLA DE GILES",
-											"latitude": -16.4078642,
-											"longitude": -71.5090334,
+											"name": "BCP",
+											"latitude": -16.4067128,
+											"longitude": -71.5108426,
 											"radius": 0.05
 										},
 										{
 											"id": 13,
-											"name": "AGENTE BCP",
-											"latitude": -16.410313,
-											"longitude": -71.504949,
+											"name": "GRIFO VDC",
+											"latitude": -16.410178,
+											"longitude": -71.5054876,
 											"radius": 0.05
 										}
 									]
 								},
 								{
 									"id": 12,
-									"stretchName": "15 DE AGOSTO - COLEGIO DE IMBECILES",
-									"latitudeOrigin": "-16.413275",
-									"longitudeOrigin": "-71.500503",
+									"stretchName": "15 DE AGOSTO - COLEGIO SP",
+									"latitudeOrigin": "-16.411814",
+									"longitudeOrigin": "-71.502602",
 									"latitudeDestination": "-16.410381",
 									"longitudeDestination": "-71.496928",
 									"distance": "1",
@@ -236,7 +236,7 @@
 									"interestPoints": [
 										{
 											"id": 14,
-											"name": "Hostal aqp",
+											"name": "HOSTAL AQP",
 											"latitude": -16.410548,
 											"longitude": -71.498003,
 											"radius": 0.05
@@ -245,7 +245,7 @@
 								},
 								{
 									"id": 13,
-									"stretchName": "COLEGIO DE IMBECILES - OVALO",
+									"stretchName": "COLEGIO SP - OVALO",
 									"latitudeOrigin": "-16.410381",
 									"longitudeOrigin": "-71.496928",
 									"latitudeDestination": "-16.407918",
@@ -257,14 +257,14 @@
 									"interestPoints": [
 										{
 											"id": 15,
-											"name": "Paradero C grampo",
+											"name": "PARADERO C GRAMPO",
 											"latitude": -16.4096486,
 											"longitude": -71.4915977,
 											"radius": 0.05
 										},
 										{
 											"id": 16,
-											"name": "Comisario de rateros",
+											"name": "COMISARÍA CANINA",
 											"latitude": -16.4086233,
 											"longitude": -71.4838535,
 											"radius": 0.05
