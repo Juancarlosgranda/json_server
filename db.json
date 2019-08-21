@@ -9,7 +9,7 @@
 					"routes": [
 						{
 							"routeId": 1,
-							"routeName": "Calle los Arces - Terminal",
+							"routeName": "Urb. Avidge - Terminal",
 							"originLatitude": "-16.383511",
 							"originLongitude": "-71.551754",
 							"destinationLatitude": "-16.4235132",
@@ -17,7 +17,7 @@
 							"stretch": [
 								{
 									"id": 1,
-									"stretchName": "Calle los Arces - Avenida Ejército",
+									"stretchName": "Urb. Avidge - Avenida Ejército",
 									"latitudeOrigin": "-16.383511",
 									"longitudeOrigin": "-71.551754",
 									"latitudeDestination": "-16.3894811",
