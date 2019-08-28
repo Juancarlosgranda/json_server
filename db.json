@@ -57,16 +57,16 @@
 									"interestPoints": [
 										{
 											"id": 3,
-											"name": "SUNAT",
-											"latitude": -16.391590,
-											"longitude": -71.548614,
+											"name": "Ripley",
+											"latitude": -16.391654,
+											"longitude": -71.548599,
 											"radius": 0.04
 										},
 										{
 											"id": 4,
 											"name": "Calle Chullo",
-											"latitude": -16.395362,
-											"longitude": -71.548378,
+											"latitude": -16.395342,
+											"longitude": -71.548341,
 											"radius": 0.04
 										}
 									]
@@ -86,22 +86,22 @@
 										{
 											"id": 5,
 											"name": "Rico Pollo",
-											"latitude": -16.399678,
-											"longitude": -71.549798,
+											"latitude": -16.399707,
+											"longitude": -71.549753,
 											"radius": 0.04
 										},
 										{
 											"id": 6,
 											"name": "Incalpaca",
-											"latitude": -16.404385,
-											"longitude": -71.553678,
+											"latitude": -16.404426,
+											"longitude": -71.553648,
 											"radius": 0.04
 										},
 										{
 											"id": 7,
 											"name": "Grifo Tahuaycani ",
-											"latitude": -16.407121,
-											"longitude": -71.557743,
+											"latitude": -16.407141,
+											"longitude": -71.557699,
 											"radius": 0.04
 										}
 									]
@@ -121,8 +121,8 @@
 										{
 											"id": 8,
 											"name": "Planta Backus",
-											"latitude": -16.411377,
-											"longitude": -71.556575,
+											"latitude": -16.411316,
+											"longitude": -71.556492,
 											"radius": 0.04
 										},
 										{
@@ -134,9 +134,9 @@
 										},
 										{
 											"id": 10,
-											"name": "Ovalo - AV. Los incas",
-											"latitude": -16.416341,
-											"longitude": -71.550979,
+											"name": "Hotel terminal",
+											"latitude": -16.423224,
+											"longitude": -71.542737,
 											"radius": 0.04
 										}
 									]
