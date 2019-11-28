@@ -1,154 +1,154 @@
-[
-	{
-	  "personal": {
-		"id_party": 1,
-		"id_driver": 1,
-		"id_owner_enterprise": 1,
-		"name": "[SMCV] Cerro Verde",
-		"identifier": {
-		  "id": 1,
-		  "type": "1",
-		  "value": "Beto Identifiers"
-		}
-	  },
-	  "owner_enterprice": {
-		"name": "asd"
-	  },
-	  "documentation": {
-		"mtc": {
-		  "id": 1,
-		  "number": "Gaa",
-		  "category": "AIIA",
-		  "end_date": "2020-01-30",
-		  "start_date": "2019-09-18",
-		  "days": 63
-		},
-		"record_driver": {
-		  "id": 1,
-		  "number": "d",
-		  "end_date": "2020-01-10",
-		  "start_date": "2019-10-15",
-		  "day": -44
-		},
-		"record_penal": {
-		  "id": 1,
-		  "name": "Criminal Record",
-		  "end_date": "2020-02-07",
-		  "start_date": "2019-08-15",
-		  "days": 71
-		},
-		"record_police": {
-		  "id": 1,
-		  "name": "sda",
-		  "end_date": "2020-02-14",
-		  "start_date": "2019-08-27",
-		  "days": 78
-		},
-		"insurance_health": {
-		  "id": 1,
-		  "insurance_company": {
-			"name": "[SMCV] Cerro Verde",
-			"id": 1,
-			"days": -79
+[ 
+	{ 
+	   "personal":{ 
+		  "id_party":1,
+		  "id_driver":1,
+		  "id_owner_enterprise":1,
+		  "name":"[SMCV] Cerro Verde",
+		  "identifier":{ 
+			 "id":1,
+			 "type":"1",
+			 "value":"Beto Identifiers"
+		  }
+	   },
+	   "owner_enterprice":{ 
+		  "name":"asd"
+	   },
+	   "documentation":{ 
+		  "mtc":{ 
+			 "id":1,
+			 "number":"Gaa",
+			 "category":"AIIA",
+			 "end_date":"2020-01-30",
+			 "start_date":"2019-09-18",
+			 "days":63
 		  },
-		  "end_date": "2020-01-10",
-		  "start_date": "2019-09-10"
-		},
-		"insurance_pension": {
-		  "id": 1,
-		  "insurance_company": {
-			"name": "[SMCV] Cerro Verde",
-			"id": 1,
-			"days": -169
+		  "record_driver":{ 
+			 "id":1,
+			 "number":"d",
+			 "end_date":"2020-01-10",
+			 "start_date":"2019-10-15",
+			 "day":-44
 		  },
-		  "end_date": "2020-03-26",
-		  "start_date": "2019-06-12"
-		}
-	  },
-	  "certification": [
-		{
-		  "id": 1,
-		  "id_course": 1,
-		  "name": "KM 99 Peru Rail",
-		  "end_date": "2020-02-14",
-		  "start_date": "2019-09-18"
-		}
-	  ]
+		  "record_penal":{ 
+			 "id":1,
+			 "name":"Criminal Record",
+			 "end_date":"2020-02-07",
+			 "start_date":"2019-08-15",
+			 "days":71
+		  },
+		  "record_police":{ 
+			 "id":1,
+			 "name":"sda",
+			 "end_date":"2020-02-14",
+			 "start_date":"2019-08-27",
+			 "days":78
+		  },
+		  "insurance_health":{ 
+			 "id":1,
+			 "insurance_company":{ 
+				"name":"[SMCV] Cerro Verde",
+				"id":1,
+				"days":-79
+			 },
+			 "end_date":"2020-01-10",
+			 "start_date":"2019-09-10"
+		  },
+		  "insurance_pension":{ 
+			 "id":1,
+			 "insurance_company":{ 
+				"name":"[SMCV] Cerro Verde",
+				"id":1,
+				"days":-169
+			 },
+			 "end_date":"2020-03-26",
+			 "start_date":"2019-06-12"
+		  }
+	   },
+	   "certification":[ 
+		  { 
+			 "id":1,
+			 "id_course":1,
+			 "name":"KM 99 Peru Rail",
+			 "end_date":"2020-02-14",
+			 "start_date":"2019-09-18"
+		  }
+	   ]
 	},
-	{
-	  "personal": {
-		"id_party": 2,
-		"id_driver": 2,
-		"id_owner_enterprise": 3,
-		"name": "Beto",
-		"identifier": {
-		  "id": 1,
-		  "type": "1",
-		  "value": "Beto Test"
-		}
-	  },
-	  "owner_enterprice": {
-		"name": "asdasd"
-	  },
-	  "documentation": {
-		"mtc": {
-		  "id": 2,
-		  "number": "License Cards",
-		  "category": "AIIB",
-		  "end_date": "2020-01-31",
-		  "start_date": "2019-11-11",
-		  "days": 64
-		},
-		"record_driver": {
-		  "id": 2,
-		  "number": "Driver Records",
-		  "end_date": "2020-02-14",
-		  "start_date": "2019-08-20",
-		  "day": -100
-		},
-		"record_penal": {
-		  "id": 2,
-		  "name": "Ciminal Records",
-		  "end_date": "2020-02-20",
-		  "start_date": "2019-07-17",
-		  "days": 84
-		},
-		"record_police": {
-		  "id": 2,
-		  "name": "PoliceRecord",
-		  "end_date": "2020-03-04",
-		  "start_date": "2019-08-15",
-		  "days": 97
-		},
-		"insurance_health": {
-		  "id": 2,
-		  "insurance_company": {
-			"name": "[SMCV] Cerro Verde",
-			"id": 1,
-			"days": -101
+	{ 
+	   "personal":{ 
+		  "id_party":2,
+		  "id_driver":2,
+		  "id_owner_enterprise":3,
+		  "name":"Beto",
+		  "identifier":{ 
+			 "id":1,
+			 "type":"1",
+			 "value":"Beto Test"
+		  }
+	   },
+	   "owner_enterprice":{ 
+		  "name":"asdasd"
+	   },
+	   "documentation":{ 
+		  "mtc":{ 
+			 "id":2,
+			 "number":"License Cards",
+			 "category":"AIIB",
+			 "end_date":"2020-01-31",
+			 "start_date":"2019-11-11",
+			 "days":64
 		  },
-		  "end_date": "2020-01-15",
-		  "start_date": "2019-08-19"
-		},
-		"insurance_pension": {
-		  "id": 2,
-		  "insurance_company": {
-			"name": "[SMCV] Cerro Verde",
-			"id": 1,
-			"days": -113
+		  "record_driver":{ 
+			 "id":2,
+			 "number":"Driver Records",
+			 "end_date":"2020-02-14",
+			 "start_date":"2019-08-20",
+			 "day":-100
 		  },
-		  "end_date": "2020-02-26",
-		  "start_date": "2019-08-07"
-		}
-	  },
-	  "certification": [
-		{
-		  "id": 2,
-		  "id_course": 1,
-		  "name": "KM 99 Peru Rail",
-		  "end_date": "2020-02-14",
-		  "start_date": "2019-08-07"
-		}
-	  ]
+		  "record_penal":{ 
+			 "id":2,
+			 "name":"Ciminal Records",
+			 "end_date":"2020-02-20",
+			 "start_date":"2019-07-17",
+			 "days":84
+		  },
+		  "record_police":{ 
+			 "id":2,
+			 "name":"PoliceRecord",
+			 "end_date":"2020-03-04",
+			 "start_date":"2019-08-15",
+			 "days":97
+		  },
+		  "insurance_health":{ 
+			 "id":2,
+			 "insurance_company":{ 
+				"name":"[SMCV] Cerro Verde",
+				"id":1,
+				"days":-101
+			 },
+			 "end_date":"2020-01-15",
+			 "start_date":"2019-08-19"
+		  },
+		  "insurance_pension":{ 
+			 "id":2,
+			 "insurance_company":{ 
+				"name":"[SMCV] Cerro Verde",
+				"id":1,
+				"days":-113
+			 },
+			 "end_date":"2020-02-26",
+			 "start_date":"2019-08-07"
+		  }
+	   },
+	   "certification":[ 
+		  { 
+			 "id":2,
+			 "id_course":1,
+			 "name":"KM 99 Peru Rail",
+			 "end_date":"2020-02-14",
+			 "start_date":"2019-08-07"
+		  }
+	   ]
 	}
-  ]
+ ]
