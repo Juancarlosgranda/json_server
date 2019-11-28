@@ -1,172 +1,154 @@
-{
-	"all": [
-		{
-			"categories": [
-				{
-					"id": 1,
-					"name": "categoria 1",
-					"description": "categoria bien bacan",
-					"routes": [
-						{
-							"routeId": 1,
-							"routeName": "Urb. Avidge - Terminal",
-							"originLatitude": "-16.383511",
-							"originLongitude": "-71.551754",
-							"destinationLatitude": "-16.4235132",
-							"destinationLongitude": "-71.5444831",
-							"stretch": [
-								{
-									"id": 1,
-									"stretchName": "Urb. Avidge - Avenida Ejército",
-									"latitudeOrigin": "-16.383511",
-									"longitudeOrigin": "-71.551754",
-									"latitudeDestination": "-16.3894811",
-									"longitudeDestination": "-71.5476088",
-									"distance": "1.2",
-									"faultLow": 45,
-									"faultMedium": 50,
-									"faultHigh": 55,
-									"interestPoints": [
-										{
-											"id": 1,
-											"name": "Colegio Garabato",
-											"latitude": -16.384702,
-											"longitude": -71.548490,
-											"radius": 0.04
-										},
-										{
-											"id": 2,
-											"name": "Avenida Cayma",
-											"latitude": -16.387574,
-											"longitude": -71.546934,
-											"radius": 0.04
-										}
-									]
-								},
-								{
-									"id": 2,
-									"stretchName": "Avenida Ejército - Ovalo Jose Abelardo",
-									"latitudeOrigin": "-16.3894811",
-									"longitudeOrigin": "-71.5476088",
-									"latitudeDestination": "-16.397070",
-									"longitudeDestination": "-71.547616",
-									"distance": "1",
-									"faultLow": 50,
-									"faultMedium": 55,
-									"faultHigh": 60,
-									"interestPoints": [
-										{
-											"id": 3,
-											"name": "Ripley",
-											"latitude": -16.391654,
-											"longitude": -71.548599,
-											"radius": 0.04
-										},
-										{
-											"id": 4,
-											"name": "Calle Chullo",
-											"latitude": -16.395342,
-											"longitude": -71.548341,
-											"radius": 0.04
-										}
-									]
-								},
-								{
-									"id": 3,
-									"stretchName": "Ovalo Jose Abelardo - Variante de Uchumayo",
-									"latitudeOrigin": "-16.397070",
-									"longitudeOrigin": "-71.547616",
-									"latitudeDestination": "-16.408069",
-									"longitudeDestination": "-71.559940",
-									"distance": "2.2",
-									"faultLow": 50,
-									"faultMedium": 55,
-									"faultHigh": 60,
-									"interestPoints": [
-										{
-											"id": 5,
-											"name": "Rico Pollo",
-											"latitude": -16.399707,
-											"longitude": -71.549753,
-											"radius": 0.04
-										},
-										{
-											"id": 6,
-											"name": "Incalpaca",
-											"latitude": -16.404426,
-											"longitude": -71.553648,
-											"radius": 0.04
-										},
-										{
-											"id": 7,
-											"name": "Grifo Tahuaycani ",
-											"latitude": -16.407141,
-											"longitude": -71.557699,
-											"radius": 0.04
-										}
-									]
-								},
-								{
-									"id": 4,
-									"stretchName": "Variante de Uchumayo - Terminal",
-									"latitudeOrigin": "-16.408069",
-									"longitudeOrigin": "-71.559940",
-									"latitudeDestination": "-16.4235132",
-									"longitudeDestination": "-71.5444831",
-									"distance": "3",
-									"faultLow": 50,
-									"faultMedium": 55,
-									"faultHigh": 60,
-									"interestPoints": [
-										{
-											"id": 8,
-											"name": "Planta Backus",
-											"latitude": -16.411316,
-											"longitude": -71.556492,
-											"radius": 0.04
-										},
-										{
-											"id": 9,
-											"name": "Rio chili",
-											"latitude": -16.416341,
-											"longitude": -71.550979,
-											"radius": 0.04
-										},
-										{
-											"id": 10,
-											"name": "Hotel terminal",
-											"latitude": -16.423224,
-											"longitude": -71.542737,
-											"radius": 0.04
-										}
-									]
-								}
-							]
-						}
-					]
-				},
-				{
-					"id": 2,
-					"name": "categoria 2",
-					"description": "categoria nell",
-					"routes": []
-				},
-				{
-					"id": 3,
-					"name": "categoria 3",
-					"description": "-----",
-					"routes": []
-				},
-				{
-					"id": 4,
-					"name": "categoria 4",
-					"description": "una categoria sin nada mas que poner",
-					"routes": []
-				}
-			]
+[
+	{
+	  "personal": {
+		"id_party": 1,
+		"id_driver": 1,
+		"id_owner_enterprise": 1,
+		"name": "[SMCV] Cerro Verde",
+		"identifier": {
+		  "id": 1,
+		  "type": "1",
+		  "value": "Beto Identifiers"
 		}
-	],
-	"profile": {
-		"name": "typicode"
+	  },
+	  "owner_enterprice": {
+		"name": "asd"
+	  },
+	  "documentation": {
+		"mtc": {
+		  "id": 1,
+		  "number": "Gaa",
+		  "category": "AIIA",
+		  "end_date": "2020-01-30",
+		  "start_date": "2019-09-18",
+		  "days": 63
+		},
+		"record_driver": {
+		  "id": 1,
+		  "number": "d",
+		  "end_date": "2020-01-10",
+		  "start_date": "2019-10-15",
+		  "day": -44
+		},
+		"record_penal": {
+		  "id": 1,
+		  "name": "Criminal Record",
+		  "end_date": "2020-02-07",
+		  "start_date": "2019-08-15",
+		  "days": 71
+		},
+		"record_police": {
+		  "id": 1,
+		  "name": "sda",
+		  "end_date": "2020-02-14",
+		  "start_date": "2019-08-27",
+		  "days": 78
+		},
+		"insurance_health": {
+		  "id": 1,
+		  "insurance_company": {
+			"name": "[SMCV] Cerro Verde",
+			"id": 1,
+			"days": -79
+		  },
+		  "end_date": "2020-01-10",
+		  "start_date": "2019-09-10"
+		},
+		"insurance_pension": {
+		  "id": 1,
+		  "insurance_company": {
+			"name": "[SMCV] Cerro Verde",
+			"id": 1,
+			"days": -169
+		  },
+		  "end_date": "2020-03-26",
+		  "start_date": "2019-06-12"
+		}
+	  },
+	  "certification": [
+		{
+		  "id": 1,
+		  "id_course": 1,
+		  "name": "KM 99 Peru Rail",
+		  "end_date": "2020-02-14",
+		  "start_date": "2019-09-18"
+		}
+	  ]
+	},
+	{
+	  "personal": {
+		"id_party": 2,
+		"id_driver": 2,
+		"id_owner_enterprise": 3,
+		"name": "Beto",
+		"identifier": {
+		  "id": 1,
+		  "type": "1",
+		  "value": "Beto Test"
+		}
+	  },
+	  "owner_enterprice": {
+		"name": "asdasd"
+	  },
+	  "documentation": {
+		"mtc": {
+		  "id": 2,
+		  "number": "License Cards",
+		  "category": "AIIB",
+		  "end_date": "2020-01-31",
+		  "start_date": "2019-11-11",
+		  "days": 64
+		},
+		"record_driver": {
+		  "id": 2,
+		  "number": "Driver Records",
+		  "end_date": "2020-02-14",
+		  "start_date": "2019-08-20",
+		  "day": -100
+		},
+		"record_penal": {
+		  "id": 2,
+		  "name": "Ciminal Records",
+		  "end_date": "2020-02-20",
+		  "start_date": "2019-07-17",
+		  "days": 84
+		},
+		"record_police": {
+		  "id": 2,
+		  "name": "PoliceRecord",
+		  "end_date": "2020-03-04",
+		  "start_date": "2019-08-15",
+		  "days": 97
+		},
+		"insurance_health": {
+		  "id": 2,
+		  "insurance_company": {
+			"name": "[SMCV] Cerro Verde",
+			"id": 1,
+			"days": -101
+		  },
+		  "end_date": "2020-01-15",
+		  "start_date": "2019-08-19"
+		},
+		"insurance_pension": {
+		  "id": 2,
+		  "insurance_company": {
+			"name": "[SMCV] Cerro Verde",
+			"id": 1,
+			"days": -113
+		  },
+		  "end_date": "2020-02-26",
+		  "start_date": "2019-08-07"
+		}
+	  },
+	  "certification": [
+		{
+		  "id": 2,
+		  "id_course": 1,
+		  "name": "KM 99 Peru Rail",
+		  "end_date": "2020-02-14",
+		  "start_date": "2019-08-07"
+		}
+	  ]
 	}
-}
+  ]
