@@ -847,69 +847,6 @@
 			   ]
 			}
 		 ]
-		},
-		{
-		"albumId": 1,
-		"id": 10,
-		"title": "beatae et provident et ut vel",
-		"url": "https://via.placeholder.com/600/810b14",
-		"thumbnailUrl": "https://via.placeholder.com/150/810b14",
-		"certification":[ 
-			{ 
-			   "id":2,
-			   "id_course":1,
-			   "name":"KM 99 Peru Rail",
-			   "end_date":"2020-02-14",
-			   "start_date":"2019-08-07",
-			   "enterprise":[
-				   {
-					   "name":"cuack"
-				   }
-			   ]
-			}
-		 ]
-		},
-		{
-		"albumId": 1,
-		"id": 11,
-		"title": "nihil at amet non hic quia qui",
-		"url": "https://via.placeholder.com/600/1ee8a4",
-		"thumbnailUrl": "https://via.placeholder.com/150/1ee8a4",
-		"certification":[ 
-			{ 
-			   "id":2,
-			   "id_course":1,
-			   "name":"KM 99 Peru Rail",
-			   "end_date":"2020-02-14",
-			   "start_date":"2019-08-07",
-			   "enterprise":[
-				   {
-					   "name":"cuack"
-				   }
-			   ]
-			}
-		 ]
-		},
-		{
-		"albumId": 1,
-		"id": 12,
-		"title": "mollitia soluta ut rerum eos aliquam consequatur perspiciatis maiores",
-		"url": "https://via.placeholder.com/600/66b7d2",
-		"thumbnailUrl": "https://via.placeholder.com/150/66b7d2",
-		"certification":[ 
-			{ 
-			   "id":2,
-			   "id_course":1,
-			   "name":"KM 99 Peru Rail",
-			   "end_date":"2020-02-14",
-			   "start_date":"2019-08-07",
-			   "enterprise":[
-				   {
-					   "name":"cuack"
-				   }
-			   ]
-			}
-		 ]
 		}
 	]		
 
